@@ -8,7 +8,7 @@ This is where I'll upload code I think is cool and/or useful
 * Calculator also returns the next half birthday (when someone is N + 0.5 years old), the current age, the length of the year, and the length of the birth week on each world
 * Project required analysis of the Gregorian calendar system: since the Gregorian year drifts by a non-integer number of days and corrections are only made by adding single whole days, the calculated next birthday on Earth can be off by as much as 2 days. A brief analysis is provided in the repository
 
-![](https://github.com/cjhapich/CJ_Portfolio/blob/main/images/other_worlds_example_1.png)
+![](/images/other_worlds_example_1.png)
 
 
-![](https://github.com/cjhapich/CJ_Portfolio/blob/main/images/other_worlds_example_2.png)
+![](/images/other_worlds_example_2.png)

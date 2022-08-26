@@ -1,4 +1,4 @@
-# CJ's Portfolio
+# CJ_Portfolio
 This is where I'll upload code I think is cool and/or useful
 
 ## [Project 1: Solar System Birthday Calculator](https://github.com/cjhapich/other_worlds_code)

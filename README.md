@@ -9,7 +9,7 @@ Here is a summary of my completed projects
 ![](/images/ray_trace.mp4)
 
 
-![](/images/particles.mp4)
+![](/images/particles.gif)
 
 * Ran simulations of 100,000 photons in an effort to measure the shadow created by the many reflections. Detected a noticable shadow approaching the unilluminable side that got more pronounced as simulation step size was decreased.
 

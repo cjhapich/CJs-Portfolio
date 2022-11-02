@@ -1,7 +1,23 @@
 # CJ Portfolio
 Here is a summary of my completed projects
 
-## [Project 1: Solar System Birthday Calculator](https://github.com/cjhapich/other_worlds_code)
+## [Project 1: Unilluminable Room Simulation](https://github.com/cjhapich/unilluminable_room)
+
+### Overview
+* Simulation of photon motion in a 4-sided Tokarsky "unilluminable room", in which light starting at one side of the room will never make it to the other side. Used matplotlib's FuncAnimation feature to make movies of photons and rays moving through the room.
+
+![](/images/ray_trace.mp4)
+
+
+![](/images/particles.mp4)
+
+* Ran simulations of 100,000 photons in an effort to measure the shadow created by the many reflections. Detected a noticable shadow approaching the unilluminable side that got more pronounced as simulation step size was decreased.
+
+![](/images/normalized_density.png)
+
+* Plan to implement continuous collision detection to improve simulation quality.
+
+## [Project 2: Solar System Birthday Calculator](https://github.com/cjhapich/other_worlds_code)
 
 ### Overview
 * Created a calculator that takes a date of birth and returns the date of the next birthday for 10 worlds in the solar system (the 8 planets and dwarf planets Pluto and Ceres)

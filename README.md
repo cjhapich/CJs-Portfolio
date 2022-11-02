@@ -1,4 +1,4 @@
-# CJ Portfolio
+
 Here are summaries of some of my completed projects.
 
 ## [Project 1: Unilluminable Room Simulation](https://github.com/cjhapich/unilluminable_room)

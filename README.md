@@ -1,6 +1,4 @@
 
-Here are summaries of some of my completed projects.
-
 ## [Project 1: Zero-Age Main Sequence Star Simulator](https://github.com/cjhapich/star_simulator)
 
 ### Disclaimer

@@ -4,12 +4,13 @@ Here are summaries of some of my completed projects.
 ## [Project 1: Zero-Age Main Sequence Star Simulator](https://github.com/cjhapich/star_simulator)
 
 ### Disclaimer
-An improved version of a numerical simulation I wrote in Python as a sophomore. Most of the equations come from Carroll & Ostlie's *An Introduction to Modern Astrophysics* (2006). While I wrote the procedures myself, many of the calculations were pulled directly from Carroll & Ostlie's Fortran 95 script **STATSTAR**. Whereas **STATSTAR** integrates in radius, my code integrates in mass in an effort to more accurately calculate changes in high density regions. This code is just for fun, and I do not claim ownership of any of the methods of the simulation.
+This is an improved version of a numerical simulation I wrote in Python as a sophomore. Most of the equations come from Carroll & Ostlie's *An Introduction to Modern Astrophysics* (2006). While I wrote the procedures myself, many of the calculations were pulled directly from Carroll & Ostlie's Fortran 95 script **STATSTAR**. Whereas **STATSTAR** integrates in radius, my code integrates in mass in an effort to more accurately calculate changes in high density regions. This code is just for fun, and I do not claim ownership of any of the methods of the simulation.
 
 ### Overview
 * Takes input from the user in the form of a stellar mass, an effective temperature and luminosity, and hydrogen and metal mass ratios to compute the profile of a main sequence star at the beginning of its life (zero-age).
 * Solves the differential equations of mass conservation, hydrostatic equilibrium, energy generation, and radiative or convective heat transfer with a fourth-order Runge Kutta integration. Also uses several equations of state to work backwards from the surface of the star. At the surface and center of the star, approximate functions are used to avoid dealing with derivatives that are zero or very large.
 * Contains built-in options to plot profiles of the interior mass, temperature, pressure, density, interior luminosity, and nuclear energy generation as functions of radius. Also writes the results of the calculation as a .csv file.
+* I would like to update the code with more modern methods of stellar interior simulation. It would also be cool to add time evolution to what I alreay have here. Adding photometry simulations based on the star's luminosity, temperature, and composition also sounds fun.
 
 ## [Project 2: Unilluminable Room Simulation](https://github.com/cjhapich/unilluminable_room)
 
